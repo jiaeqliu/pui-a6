@@ -1,0 +1,128 @@
+Notes,Race,Race Code,Year,Year Code,Deaths,Population,Crude Rate
+,American Indian or Alaska Native,1002-5,1999,1999,11312,2832761,399.3
+,American Indian or Alaska Native,1002-5,2000,2000,11363,2984150,380.8
+,American Indian or Alaska Native,1002-5,2001,2001,11977,3097333,386.7
+,American Indian or Alaska Native,1002-5,2002,2002,12415,3202471,387.7
+,American Indian or Alaska Native,1002-5,2003,2003,13147,3312011,396.9
+,American Indian or Alaska Native,1002-5,2004,2004,13124,3429452,382.7
+,American Indian or Alaska Native,1002-5,2005,2005,13918,3554356,391.6
+,American Indian or Alaska Native,1002-5,2006,2006,14037,3687683,380.6
+,American Indian or Alaska Native,1002-5,2007,2007,14367,3829898,375.1
+,American Indian or Alaska Native,1002-5,2008,2008,14776,3983929,370.9
+,American Indian or Alaska Native,1002-5,2009,2009,14960,4141215,361.2
+,American Indian or Alaska Native,1002-5,2010,2010,15565,4263538,365.1
+,American Indian or Alaska Native,1002-5,2011,2011,15945,4347413,366.8
+,American Indian or Alaska Native,1002-5,2012,2012,16527,4398436,375.7
+,American Indian or Alaska Native,1002-5,2013,2013,17052,4457934,382.5
+,American Indian or Alaska Native,1002-5,2014,2014,18008,4518981,398.5
+,American Indian or Alaska Native,1002-5,2015,2015,19016,4577853,415.4
+Total,American Indian or Alaska Native,1002-5,,,247509,64619414,383
+,Asian or Pacific Islander,A-PI,1999,1999,33675,11346496,296.8
+,Asian or Pacific Islander,A-PI,2000,2000,34875,11757685,296.6
+,Asian or Pacific Islander,A-PI,2001,2001,37048,12429181,298.1
+,Asian or Pacific Islander,A-PI,2002,2002,38332,12953763,295.9
+,Asian or Pacific Islander,A-PI,2003,2003,40127,13461109,298.1
+,Asian or Pacific Islander,A-PI,2004,2004,40533,13967014,290.2
+,Asian or Pacific Islander,A-PI,2005,2005,43194,14494417,298
+,Asian or Pacific Islander,A-PI,2006,2006,44707,15029851,297.5
+,Asian or Pacific Islander,A-PI,2007,2007,45609,15559373,293.1
+,Asian or Pacific Islander,A-PI,2008,2008,47903,16094699,297.6
+,Asian or Pacific Islander,A-PI,2009,2009,49225,16609031,296.4
+,Asian or Pacific Islander,A-PI,2010,2010,51162,16993326,301.1
+,Asian or Pacific Islander,A-PI,2011,2011,53336,17471358,305.3
+,Asian or Pacific Islander,A-PI,2012,2012,56352,18087959,311.5
+,Asian or Pacific Islander,A-PI,2013,2013,59869,18630136,321.4
+,Asian or Pacific Islander,A-PI,2014,2014,61570,19398214,317.4
+,Asian or Pacific Islander,A-PI,2015,2015,66681,20102717,331.7
+Total,Asian or Pacific Islander,A-PI,,,804198,264386329,304.2
+,Black or African American,2054-5,1999,1999,285064,36173121,788.1
+,Black or African American,2054-5,2000,2000,285826,36594309,781.1
+,Black or African American,2054-5,2001,2001,287709,37249775,772.4
+,Black or African American,2054-5,2002,2002,290051,37748424,768.4
+,Black or African American,2054-5,2003,2003,291300,38209741,762.4
+,Black or African American,2054-5,2004,2004,287315,38738798,741.7
+,Black or African American,2054-5,2005,2005,292808,39280731,745.4
+,Black or African American,2054-5,2006,2006,289971,39857107,727.5
+,Black or African American,2054-5,2007,2007,289585,40451108,715.9
+,Black or African American,2054-5,2008,2008,289072,41048959,704.2
+,Black or African American,2054-5,2009,2009,286623,41632450,688.5
+,Black or African American,2054-5,2010,2010,286959,42065334,682.2
+,Black or African American,2054-5,2011,2011,290100,42678815,679.7
+,Black or African American,2054-5,2012,2012,295222,43203092,683.3
+,Black or African American,2054-5,2013,2013,302969,43696271,693.4
+,Black or African American,2054-5,2014,2014,308960,44309394,697.3
+,Black or African American,2054-5,2015,2015,320072,44863196,713.4
+Total,Black or African American,2054-5,,,4979606,687800625,724
+,White,2106-3,1999,1999,2061348,228687790,901.4
+,White,2106-3,2000,2000,2071287,230085762,900.2
+,White,2106-3,2001,2001,2079691,232192666,895.7
+,White,2106-3,2002,2002,2102589,233720535,899.6
+,White,2106-3,2003,2003,2103714,235125072,894.7
+,White,2106-3,2004,2004,2056643,236670034,869
+,White,2106-3,2005,2005,2098097,238187095,880.9
+,White,2106-3,2006,2006,2077549,239805271,866.3
+,White,2106-3,2007,2007,2074151,241390828,859.3
+,White,2106-3,2008,2008,2120233,242966379,872.6
+,White,2106-3,2009,2009,2086355,244388833,853.7
+,White,2106-3,2010,2010,2114749,245423340,861.7
+,White,2106-3,2011,2011,2156077,247094331,872.6
+,White,2106-3,2012,2012,2175178,248224553,876.3
+,White,2106-3,2013,2013,2217103,249344498,889.2
+,White,2106-3,2014,2014,2237880,250630467,892.9
+,White,2106-3,2015,2015,2306861,251875054,915.9
+Total,White,2106-3,,,36139505,4095812508,882.4
+Total,,,,,42170818,5112618876,824.8
+---,,,,,,,
+"Dataset: Underlying Cause of Death, 1999-2015",,,,,,,
+Query Parameters:,,,,,,,
+Title:,,,,,,,
+2013 Urbanization: All,,,,,,,
+Autopsy: All,,,,,,,
+Gender: All,,,,,,,
+Hispanic Origin: All,,,,,,,
+ICD-10 Codes: All,,,,,,,
+Place of Death: All,,,,,,,
+Race: All,,,,,,,
+States: All,,,,,,,
+Ten-Year Age Groups: All,,,,,,,
+Weekday: All,,,,,,,
+Year/Month: All,,,,,,,
+"Group By: Race, Year",,,,,,,
+Show Totals: True,,,,,,,
+Show Zero Values: False,,,,,,,
+Show Suppressed: False,,,,,,,
+"Calculate Rates Per: 100,000",,,,,,,
+Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups),,,,,,,
+---,,,,,,,
+Help: See http://wonder.cdc.gov/wonder/help/ucd.html for more information.,,,,,,,
+---,,,,,,,
+"Query Date: Nov 8, 2017 11:07:28 AM",,,,,,,
+---,,,,,,,
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Underlying Cause of Death",,,,,,,
+"1999-2015 on CDC WONDER Online Database, released December, 2016. Data are from the Multiple Cause of Death Files, 1999-2015, as",,,,,,,
+compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed,,,,,,,
+"at http://wonder.cdc.gov/ucd-icd10.html on Nov 8, 2017 11:07:28 AM",,,,,,,
+---,,,,,,,
+Caveats:,,,,,,,
+"1. As of April 3, 2017, the underlying cause of death has been revised for 125 deaths in 2014. More information:",,,,,,,
+http://wonder.cdc.gov/wonder/help/ucd.html#2014-Revision.,,,,,,,
+2. Information included on the death certificate about the race and Hispanic ethnicity of the decedent is reported by the,,,,,,,
+"funeral director as provided by an informant, often the surviving next of kin, or, in the absence of an informant, on the basis",,,,,,,
+of observation. Race and ethnicity information from the census is by self-report. To the extent that race and Hispanic origin,,,,,,,
+"are inconsistent between these two data sources, death rates will be biased. More information:",,,,,,,
+http://wonder.cdc.gov/wonder/help/ucd.html#Racial Differences.,,,,,,,
+"3. The population figures for year 2015 are bridged-race estimates of the July 1 resident population, from the Vintage 2015",,,,,,,
+"postcensal series released by NCHS on June 28, 2016. The population figures for year 2014 are bridged-race estimates of the July",,,,,,,
+"1 resident population, from the Vintage 2014 postcensal series released by NCHS on June 30, 2015. The population figures for",,,,,,,
+"year 2013 are bridged-race estimates of the July 1 resident population, from the Vintage 2013 postcensal series released by NCHS",,,,,,,
+"on June 26, 2014. The population figures for year 2012 are bridged-race estimates of the July 1 resident population, from the",,,,,,,
+"Vintage 2012 postcensal series released by NCHS on June 13, 2013. The population figures for year 2011 are bridged-race",,,,,,,
+"estimates of the July 1 resident population, from the Vintage 2011 postcensal series released by NCHS on July 18, 2012.",,,,,,,
+Population figures for 2010 are April 1 Census counts. The population figures for years 2001 - 2009 are bridged-race estimates,,,,,,,
+"of the July 1 resident population, from the revised intercensal county-level 2000 - 2009 series released by NCHS on October 26,",,,,,,,
+2012. Population figures for 2000 are April 1 Census counts. Population figures for 1999 are from the 1990-1999 intercensal,,,,,,,
+series of July 1 estimates. Population figures for the infant age groups are the number of live births. <br/><b>Note:</b> Rates,,,,,,,
+"and population figures for years 2001 - 2009 differ slightly from previously published reports, due to use of the population",,,,,,,
+estimates which were available at the time of release.,,,,,,,
+4. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the,,,,,,,
+resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Age Group.,,,,,,,
