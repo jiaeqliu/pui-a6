@@ -1,0 +1,87 @@
+Notes,Gender,Gender Code,Year,Year Code,Deaths,Population,Crude Rate
+,Female,F,1999,1999,1215939,142237295,854.9
+,Female,F,2000,2000,1225773,143368343,855
+,Female,F,2001,2001,1233004,145077463,849.9
+,Female,F,2002,2002,1244123,146394634,849.8
+,Female,F,2003,2003,1246324,147679036,843.9
+,Female,F,2004,2004,1215947,148977286,816.2
+,Female,F,2005,2005,1240342,150319521,825.1
+,Female,F,2006,2006,1224322,151732647,806.9
+,Female,F,2007,2007,1219744,153166353,796.4
+,Female,F,2008,2008,1245787,154604015,805.8
+,Female,F,2009,2009,1219784,155964075,782.1
+,Female,F,2010,2010,1236003,156964212,787.4
+,Female,F,2011,2011,1260480,158301098,796.3
+,Female,F,2012,2012,1269557,159421973,796.4
+,Female,F,2013,2013,1290959,160477237,804.4
+,Female,F,2014,2014,1298177,161920569,801.7
+,Female,F,2015,2015,1339226,163189523,820.7
+Total,Female,F,,,21225491,2599795280,816.4
+,Male,M,1999,1999,1175460,136802873,859.2
+,Male,M,2000,2000,1177578,138053563,853
+,Male,M,2001,2001,1183421,139891492,846
+,Male,M,2002,2002,1199264,141230559,849.2
+,Male,M,2003,2003,1201964,142428897,843.9
+,Male,M,2004,2004,1181668,143828012,821.6
+,Male,M,2005,2005,1207675,145197078,831.7
+,Male,M,2006,2006,1201942,146647265,819.6
+,Male,M,2007,2007,1203968,148064854,813.1
+,Male,M,2008,2008,1226197,149489951,820.3
+,Male,M,2009,2009,1217379,150807454,807.2
+,Male,M,2010,2010,1232432,151781326,812
+,Male,M,2011,2011,1254978,153290819,818.7
+,Male,M,2012,2012,1273722,154492067,824.5
+,Male,M,2013,2013,1306034,155651602,839.1
+,Male,M,2014,2014,1328241,156936487,846.4
+,Male,M,2015,2015,1373404,158229297,868
+Total,Male,M,,,20945327,2512823596,833.5
+Total,,,,,42170818,5112618876,824.8
+---,,,,,,,
+"Dataset: Underlying Cause of Death, 1999-2015",,,,,,,
+Query Parameters:,,,,,,,
+Title:,,,,,,,
+2013 Urbanization: All,,,,,,,
+Autopsy: All,,,,,,,
+Gender: All,,,,,,,
+Hispanic Origin: All,,,,,,,
+ICD-10 Codes: All,,,,,,,
+Place of Death: All,,,,,,,
+Race: All,,,,,,,
+States: All,,,,,,,
+Ten-Year Age Groups: All,,,,,,,
+Weekday: All,,,,,,,
+Year/Month: All,,,,,,,
+"Group By: Gender, Year",,,,,,,
+Show Totals: True,,,,,,,
+Show Zero Values: False,,,,,,,
+Show Suppressed: False,,,,,,,
+"Calculate Rates Per: 100,000",,,,,,,
+Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups),,,,,,,
+---,,,,,,,
+Help: See http://wonder.cdc.gov/wonder/help/ucd.html for more information.,,,,,,,
+---,,,,,,,
+"Query Date: Nov 8, 2017 11:07:17 AM",,,,,,,
+---,,,,,,,
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. Underlying Cause of Death",,,,,,,
+"1999-2015 on CDC WONDER Online Database, released December, 2016. Data are from the Multiple Cause of Death Files, 1999-2015, as",,,,,,,
+compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed,,,,,,,
+"at http://wonder.cdc.gov/ucd-icd10.html on Nov 8, 2017 11:07:17 AM",,,,,,,
+---,,,,,,,
+Caveats:,,,,,,,
+"1. As of April 3, 2017, the underlying cause of death has been revised for 125 deaths in 2014. More information:",,,,,,,
+http://wonder.cdc.gov/wonder/help/ucd.html#2014-Revision.,,,,,,,
+"2. The population figures for year 2015 are bridged-race estimates of the July 1 resident population, from the Vintage 2015",,,,,,,
+"postcensal series released by NCHS on June 28, 2016. The population figures for year 2014 are bridged-race estimates of the July",,,,,,,
+"1 resident population, from the Vintage 2014 postcensal series released by NCHS on June 30, 2015. The population figures for",,,,,,,
+"year 2013 are bridged-race estimates of the July 1 resident population, from the Vintage 2013 postcensal series released by NCHS",,,,,,,
+"on June 26, 2014. The population figures for year 2012 are bridged-race estimates of the July 1 resident population, from the",,,,,,,
+"Vintage 2012 postcensal series released by NCHS on June 13, 2013. The population figures for year 2011 are bridged-race",,,,,,,
+"estimates of the July 1 resident population, from the Vintage 2011 postcensal series released by NCHS on July 18, 2012.",,,,,,,
+Population figures for 2010 are April 1 Census counts. The population figures for years 2001 - 2009 are bridged-race estimates,,,,,,,
+"of the July 1 resident population, from the revised intercensal county-level 2000 - 2009 series released by NCHS on October 26,",,,,,,,
+2012. Population figures for 2000 are April 1 Census counts. Population figures for 1999 are from the 1990-1999 intercensal,,,,,,,
+series of July 1 estimates. Population figures for the infant age groups are the number of live births. <br/><b>Note:</b> Rates,,,,,,,
+"and population figures for years 2001 - 2009 differ slightly from previously published reports, due to use of the population",,,,,,,
+estimates which were available at the time of release.,,,,,,,
+3. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the,,,,,,,
+resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Age Group.,,,,,,,

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Stroke | A Visual Guide to Patient Data</title>
+        <meta name="description" content="A visual guide about stroke.">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,700|Roboto:400,700" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-1.11.0.min.js">
+        </script>
+        <script src="/js/main.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="/js/parallax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.js"></script>
+        <script src="js/chartjs-plugin-deferred.min.js"></script>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <ul class="nav nav-tabs justify-content-between">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#risks">Risks</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#outcomes">Outcomes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resources">Resources</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div width="100%" height="400px" class="parallax-window" data-parallax="scroll" data-image-src="../img/strokebg4.jpg">
+            <div class="hero-image">
+                <div class="container">
+                    <div class="hero-text col-sm-8 col-sm-offset-2">
+                        <h1>Surviving Stroke</h1>
+                        <h3>A Visual Guide for Patients and Caretakers</h3>
+                    </div><!-- HERO TEXT -->
+                </div> <!-- CONTAINER -->
+            </div> <!-- HERO CONTAINER -->
+        </div> <!-- PARALLAX IMAGE -->
+        
+        <div class="container">
+            <section class="row intro-block">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <p>Every 40 seconds, someone in the United States has a stroke. The third leading cause of death in the US, more than 140,000 people die each year from it.</p>
+                    <p>Despite its enormous impact on public health, the data regarding stroke can be difficult for patients, family members, and caretakers to understand. Sometimes, statistics are quoted without critical context. Other times, the data is highly technical and buried deep within medical journal articles.</p>
+                    <p>This guide was created to help readers visualize the available data and understand the causes and long-term outlook for stroke patients.</p>
+                </div> <!-- COLUMN -->
+            </section> <!-- SECTION-->
+            
+            <section class="row intro-block">
+                <div id="risks" class="col-sm-8 col-sm-offset-2">
+                    <h3>Stroke is a leading cause of death in the US.</h3>
+                     <p>A stroke occurs when blood flow to an area of the brain is cut off, causing brain cells to die from a lack of oxygen. Where a stroke occurs, and how much the brain is damaged, determines how the person is affected.</p>
+                    <p>Stroke is the 4th leading cause of death ages 65 and older. However, among the oldest adults (85+), heart disease and cancer are far more common causes of death.</p>
+                    <h5 class="chart-title">Deaths per 100,000 people by age group in the United States for 2015</h5>
+                    <canvas id="mortality-chart" width="600" height="400"></canvas>
+                    <p>Source: "Deaths: Final Data for 2015." Murphy, et al. National Vital Statistics Reports, Vol. 66, No. 6, November 27, 2017</p>
+                </div> <!-- COLUMN -->
+            </section> <!-- SECTION-->
+
+            <section class="row intro-block">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h3>Stroke deaths have been decreasing, but they are also distributed unevenly by race and gender.</h3>
+                    <p>Stroke risk is influenced by a variety of behavioral factors, such as obesity, smoking, and exercise, which are strongly correlated with socioeconomic and demographic factors.</p>
+                    <div class="col-sm-6">             
+                        <h5 class="chart-title">Male Deaths per 100,000 by Race</h5>
+                        <canvas id="males-race-chart" width="600" height="400"></canvas>
+                    </div>
+                    <div class="col-sm-6">
+                        <h5 class="chart-title">Females Deaths per 100,000 by Race</h5>
+                        <canvas id="females-race-chart" width="600" height="400"></canvas>
+                    </div>
+                    <p>Source: Morbidity & Mortality: 2012 Chart Book on Cardiovascular, Lung, and Blood Diseases.</p>
+                </div> <!-- COLUMN -->
+            </section> <!-- SECTION-->            
+            
+            <section class="row intro-block">
+                <div id="outcomes" class="col-sm-8 col-sm-offset-2">
+                    <h3>Ischemic stroke is by far the most common type of stroke.</h3>
+                    <p>Ischemic strokes are when blood clots form and block a blood vessel. Hemorrhagic strokes are rarer and occur when blood vessels rupture. Although hemorrhagic strokes are rarer, they more often lead to death.</p>
+                    <h5 class="chart-title">Comparison of Stroke Incidence vs. Death Rate in Denmark for 2001-2009 </h5>
+                </div> <!-- COLUMN -->
+                <div class="col-sm-4 col-sm-offset-2">
+                    <h5>Stroke Incidence (%)</h5>
+                    <canvas id="stroke-incidence" width="600" height="400"></canvas>
+                </div> <!-- COLUMN -->
+                <div class="col-sm-4">
+                    <h5>Stroke Death (%)</h5>
+                    <canvas id="stroke-mortality" width="600" height="400"></canvas>
+                </div> <!-- COLUMN -->
+                <div class="col-sm-8 col-sm-offset-2">
+                    <p>Source: "Hemorrhagic and Ischemic Strokes Compared Stroke Severity, Mortality, and Risk Factors." Andersen, et al. Stroke. 2009;40:2068-2072</p>
+                </div> <!-- COLUMN -->
+            </section> <!-- SECTION-->
+            
+            <section class="row intro-block">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h3>The outcomes for ischemic strokes vary by cause.</h3>
+                    <p>Because ischemic strokes are far more common, more definitive research has been conducted to link the underlying cause of the stroke to long-term outcomes. The following data is drawn from the German Stroke Data Bank, which includes a comprehensive patient data set for ischemic stroke.</p>
+                    <p>Patient outcomes are scored using the Modified Rankin Scale (mRS), which measures the degree of disability or dependence in the daily activities of people who have suffered a stroke or other causes of neurological disability. The scale ranges from 0 (No symptoms) to 6 (Deceased).</p>
+                    <p>See <a href="https://en.wikipedia.org/wiki/Modified_Rankin_Scale">here</a> for more information about the Modified Rankin Scale.</p>
+                    <h5 class="chart-title">90-Day Outcomes By Cause of Ischemic Stroke for 1998-1999</h5>
+                </div> <!-- COLUMN -->
+                <div class="col-sm-8 col-sm-offset-2">
+                    <canvas id="ischemic-chart" width="600" height="400"></canvas>
+                </div> <!-- COLUMN -->
+                <div class="col-sm-8 col-sm-offset-2">
+                    <p>For more information, see <a href="https://en.wikipedia.org/wiki/Angiopathy">angiopathy</a>, <a href="https://en.wikipedia.org/wiki/Stroke">embolism</a>.</p>
+                    <p>Source: "Risk Factors, Outcome, and Treatment in Subtypes of Ischemic Stroke." Stroke. 2001;32:2559-2566.</p>
+                </div> <!-- COLUMN -->
+            </section> <!-- SECTION-->
+            
+            <section class="row intro-block">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h3>Unfortunately, the data for hemorrhagic stroke is more limited.</h3>
+                    <p>There is ongoing research into mapping the causes of these strokes to long-term outcomes. However, due to their relative rarity, and higher mortality rates, the data is morel imited.</p>
+                </div> <!-- COLUMN -->
+            </section> <!-- SECTION-->
+        
+            <section class="row intro-block">
+                <div id="resources" class="col-sm-8 col-sm-offset-2">
+                    <h4>For more resources and information:</h4>
+                    <ul class="resource-list">
+                        <li><a href="http://www.stroke.org">National Stroke Association:</a> Resources, patient care guides, and support groups</li>
+                            <ul>
+                                <li><a href="http://www.stroke.org/stroke-resources/library/hope-stroke-recovery-guide">HOPE: A Stroke Recovery Guide. National Stroke Association.</a></li>
+                                <li><a href="http://www.stroke.org/we-can-help/caregivers-and-family/careliving-guide">Careliving Guide: A guide for caregivers for stroke patients.</a></li>
+                            </ul>
+                        <li><a href="https://www.strokeassociation.org/STROKEORG/">American Stroke Association:</a> Additional resources and useful statistics.</li>
+                        <li><a href="https://medlineplus.gov/stroke.html">MedLine Plus: Stroke</a> Patient-friendly medical and health information.</li>
+                    </ul>
+                </div> <!-- COLUMN -->
+            </section> <!-- SECTION-->          
+        </div> <!-- CONTAINER -->
+        <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    </body> 
+</html>
